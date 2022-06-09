@@ -1,0 +1,38 @@
+.home--banner-title{
+  font-size: 4.5rem;
+}
+.home--banner-text{
+  font-size: 1.2rem;
+  color: #7c7c7c;
+}
+@media (max-width: 992px){
+  .home--banner-title{
+    font-size: 3.9rem;
+  }
+  .home--banner-text{
+    font-size: 1.1rem;
+  }
+}
+@media (max-width: 576px){
+  .home--banner-title{
+    font-size: 3rem;
+  }
+  .home--banner-text{
+    font-size: 1rem;
+  }
+}
+.home--content table{
+  width: 100%;
+  max-width: 550px;
+}
+.home--content table, th, td{
+  border: solid 2px rgba(159, 181, 185, 0.678);
+}
+.home--content th{
+  font-size: 1.08rem;
+  background-color: rgba(145, 203, 215, 0.3);
+}
+.home--content th, td{
+  width: 50%;
+  padding: 5px;
+}

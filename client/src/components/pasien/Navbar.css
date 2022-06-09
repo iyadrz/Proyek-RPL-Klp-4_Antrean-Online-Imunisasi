@@ -1,0 +1,12 @@
+.navbar-pasien {
+  background-color: rgba(145, 203, 215, 0.3);
+}
+.navbar-pasien .nav-link {
+  font-size: 0.85rem;
+}
+.button-pasien {
+  background-color: #6fc7e9;
+  color: white;
+  font-size: 0.9rem;
+  width: 150px;
+}

@@ -1,0 +1,81 @@
+hr {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.data-pasien .left {
+  display: inline-block;
+  min-width: 150px;
+}
+.data-pasien .right {
+  margin-left: 20px;
+}
+.data-pasien p {
+  display: flex;
+}
+@media (max-width: 400px) {
+  .data-pasien p {
+    flex-wrap: wrap;
+    text-align: right !important;
+  }
+  .data-pasien .right{
+    width: 100%;
+    margin-left: 0px;
+    border-bottom: rgb(184, 184, 184) 1px solid;
+  }
+  .data-pasien .left{
+    min-width: 0px;
+    margin-right: 10px;
+  }
+}
+.info-singkat .left {
+  font-weight: bold;
+  display: inline-block;
+  min-width: 120px;
+}
+.info-singkat .right {
+  margin-left: 15px;
+}
+@media (max-width: 575px) {
+  .info-singkat .left {
+    min-width: 0px;
+  }
+  .info-singkat .right {
+    margin-left: 0;
+    display: block;
+  }
+}
+.gradient {
+  color: rgba(0, 0, 0, 0.459);
+}
+.estimasi {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-align: center;
+  appearance: none;
+  border: none;
+  font-size: 30px;
+  background-color: rgba(255, 255, 255, 100%);
+}
+
+.shadow-tes {
+  -moz-box-shadow: 0px 0px 5px 2px #ccc;
+  -webkit-box-shadow: 0px 0px 5px 2px #ccc;
+  box-shadow: 0px 0px 5px 2px #ccc;
+}
+
+.gap-far {
+  gap: 25%;
+}
+@media (max-width: 370px) {
+  .gap-far {
+    gap: 8%;
+  }
+}
+
+.bg-kuning {
+  background: rgb(253, 222, 81);
+}
+
+.bg-merah {
+  background: hsl(351, 100%, 80%);
+}

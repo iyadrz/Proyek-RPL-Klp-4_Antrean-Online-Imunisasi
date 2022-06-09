@@ -1,0 +1,52 @@
+{
+  "name": "admin-app",
+  "homepage": "https://alfian-arya.github.io/",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.0.1",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^0.26.1",
+    "formik": "^2.2.9",
+    "gh-pages": "^4.0.0",
+    "js-file-download": "^0.4.12",
+    "jwt-decode": "^3.1.2",
+    "react": "^18.0.0",
+    "react-calendar": "^3.7.0",
+    "react-cookie": "^4.1.1",
+    "react-dom": "^18.0.0",
+    "react-live-clock": "^5.8.2",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "5.0.1",
+    "sass": "^1.50.0",
+    "web-vitals": "^2.1.4",
+    "yup": "^0.32.11"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+.live-antrean--benefit-items {
+  color: white;
+}
+.live-antrean--benefit-items:nth-child(even) {
+  background-color: #505d68;
+}
+.live-antrean--benefit-items:nth-child(odd) {
+  background-color: #6d6d6dc4;
+}

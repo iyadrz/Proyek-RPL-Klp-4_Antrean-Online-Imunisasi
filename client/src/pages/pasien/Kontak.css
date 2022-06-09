@@ -1,0 +1,26 @@
+.kontak--content {
+  height: 85%;
+}
+@media (max-width: 576px) {
+  .kontak--content {
+    height: 100%;
+  }
+}
+.kontak--title {
+  font-size: 4rem;
+}
+.kontak--contact-icon {
+  font-size: 2rem;
+}
+.kontak--contact-item {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: #f2f5f7;
+}
+.kontak--contact-item:hover{
+  background-color: #eaecee;
+}
+.kontak--contact-info {
+  color: #99a1a6;
+}
